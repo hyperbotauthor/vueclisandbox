@@ -1,2 +1,3 @@
 # vueclisandbox
-Created with CodeSandbox
+
+`vue-cli` app created with CodeSandbox.
