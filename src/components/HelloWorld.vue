@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-    <h1>Hello {{ name }}!!</h1>
-    <h2>Welcome to Vue JS</h2>
+    <h1>Hello from {{ name }} !!</h1>
+    <h2>Welcome to my Vue JS Chessboard ...</h2>
   </div>
 </template>
 
@@ -9,25 +9,23 @@
 export default {
   name: "HelloWorld",
   props: {
-    name: String
-  }
+    name: String,
+  },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+h1 {
+  color: #007;
+  font-size: 35px;
+}
+h2 {
+  color: #070;
+  font-size: 30px;
 }
 ul {
   list-style-type: none;
   padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>
