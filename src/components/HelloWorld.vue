@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <img width="40" src="../assets/logo.png" />
     <h1>Hello from {{ name }} !!</h1>
     <h2>Welcome to my Vue JS Chessboard ...</h2>
   </div>
@@ -27,5 +28,9 @@ h2 {
 ul {
   list-style-type: none;
   padding: 0;
+}
+.hello {
+  width: 100%;
+  text-align: center;
 }
 </style>

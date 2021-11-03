@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img width="40" src="./assets/logo.png" />
     <HelloWorld name="hyperbotauthor" />
     <div class="source">
       <a
@@ -38,9 +37,10 @@ export default {
 <style>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  text-align: center;
 }
 .source {
+  width: 100%;
+  text-align: center;
   margin-bottom: 10px;
 }
 </style>
