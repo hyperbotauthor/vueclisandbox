@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.0.0",
-    "@publishvue/vue3complib": "1.0.58"
+    "@publishvue/vue3complib": "1.0.59"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.6.0",
