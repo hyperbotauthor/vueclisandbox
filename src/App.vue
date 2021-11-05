@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HelloWorld name="hyperbotauthor" />
-    <div class="source">
+    <div>
       <a
         rel="noopener noreferrer"
         target="_blank"
@@ -16,7 +16,7 @@
         >Develop in Code Sandbox</a
       >
     </div>
-    <ChessboardExt> </ChessboardExt>
+    <ChessboardExt style="margin-top: 5px"> </ChessboardExt>
   </div>
 </template>
 
@@ -37,10 +37,8 @@ export default {
 <style>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-}
-.source {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>
