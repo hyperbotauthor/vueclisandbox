@@ -27,6 +27,7 @@ import { ChessboardExt } from "@publishvue/vue3complib";
 
 export default {
   name: "App",
+  mounted() {},
   components: {
     HelloWorld,
     ChessboardExt,
@@ -37,8 +38,8 @@ export default {
 <style>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  display: flex;
   flex-direction: column;
   align-items: center;
+  display: flex;
 }
 </style>
