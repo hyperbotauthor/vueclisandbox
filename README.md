@@ -4,8 +4,8 @@
 
 # dev container
 
-https://codesandbox.io/s/musing-edison-1uri7
+https://codesandbox.io/s/empty-snowflake-u34qe
 
 # live
 
-https://1uri7.csb.app/
+https://u34qe.csb.app/
